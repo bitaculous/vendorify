@@ -1,7 +1,9 @@
 module Vendorify
   module Paths
+    attr_accessor :root
+
     def root
-      @root
+      @root || Dir.pwd
     end
 
     def vendor_assets
@@ -23,8 +25,5 @@ module Vendorify
     def vendor_stylesheets
       File.expand_path 'stylesheets', vendor_assets
     end
-
-    protected
-      attr_reader :root
   end
 end

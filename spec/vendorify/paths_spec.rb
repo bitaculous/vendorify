@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Vendorify::Paths do
-  let(:root)               { File.expand_path '../../../', __FILE__}
+  let(:root)               { File.expand_path '../../../', __FILE__ }
   let(:vendor_assets)      { File.expand_path 'vendor/assets', root }
   let(:vendor_fonts)       { File.expand_path 'fonts', vendor_assets }
   let(:vendor_images)      { File.expand_path 'images', vendor_assets }
