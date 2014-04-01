@@ -1,0 +1,3 @@
+module Vendorify
+  # Your code goes here...
+end
