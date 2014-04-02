@@ -1,7 +1,7 @@
 require 'sprockets'
 
 module Vendorify
-  module Integration
+  module Integrations
     module Sprockets
       ::Sprockets.append_path Vendorify.vendor_fonts
       ::Sprockets.append_path Vendorify.vendor_images

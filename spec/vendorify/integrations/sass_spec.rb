@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Vendorify::Integration::Sass do
+describe Vendorify::Integrations::Sass do
   let(:load_paths) { Sass.load_paths }
 
   it 'expands the load path' do
