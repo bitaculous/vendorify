@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Vendorify::Integrations::Sprockets do
+describe Vendorify::Integrations::SprocketsIntegration do
   let(:load_paths) { Sprockets.paths }
 
   it 'expands the load path' do

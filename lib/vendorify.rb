@@ -3,6 +3,5 @@ module Vendorify
 
   extend Paths
 
-  require 'vendorify/integrations/sass'
-  require 'vendorify/integrations/sprockets'
+  require 'vendorify/integrations'
 end
