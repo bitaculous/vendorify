@@ -4,10 +4,10 @@ module Vendorify
   module Integrations
     class SprocketsIntegration
       def self.setup
-        ::Sprockets.append_path Vendorify.vendor_fonts
-        ::Sprockets.append_path Vendorify.vendor_images
-        ::Sprockets.append_path Vendorify.vendor_javascripts
-        ::Sprockets.append_path Vendorify.vendor_stylesheets
+        ::Sprockets.append_path Vendorify.vendor_fonts_path
+        ::Sprockets.append_path Vendorify.vendor_images_path
+        ::Sprockets.append_path Vendorify.vendor_javascripts_path
+        ::Sprockets.append_path Vendorify.vendor_stylesheets_path
       end
     end
   end

@@ -1,30 +1,35 @@
 require 'spec_helper'
 
 describe Vendorify::Paths do
-  let(:trail)              { File.expand_path Dir.pwd }
-  let(:vendor_assets)      { File.expand_path 'vendor/assets', trail }
-  let(:vendor_fonts)       { File.expand_path 'fonts', vendor_assets }
-  let(:vendor_images)      { File.expand_path 'images', vendor_assets }
-  let(:vendor_javascripts) { File.expand_path 'javascripts', vendor_assets }
-  let(:vendor_stylesheets) { File.expand_path 'stylesheets', vendor_assets }
+  let(:trail)                   { File.expand_path Dir.pwd }
+  let(:vendor_path)             { File.expand_path 'vendor', trail }
+  let(:vendor_assets_path)      { File.expand_path 'assets', vendor_path }
+  let(:vendor_fonts_path)       { File.expand_path 'fonts', vendor_assets_path }
+  let(:vendor_images_path)      { File.expand_path 'images', vendor_assets_path }
+  let(:vendor_javascripts_path) { File.expand_path 'javascripts', vendor_assets_path }
+  let(:vendor_stylesheets_path) { File.expand_path 'stylesheets', vendor_assets_path }
+
+  it 'returns “vendor” path' do
+    expect(Vendorify.vendor_path).to eql vendor_path
+  end
 
   it 'returns “vendor assets” path' do
-    expect(Vendorify.vendor_assets).to eql vendor_assets
+    expect(Vendorify.vendor_assets_path).to eql vendor_assets_path
   end
 
   it 'returns “vendor fonts” path' do
-    expect(Vendorify.vendor_fonts).to eql vendor_fonts
+    expect(Vendorify.vendor_fonts_path).to eql vendor_fonts_path
   end
 
   it 'returns “vendor images” path' do
-    expect(Vendorify.vendor_images).to eql vendor_images
+    expect(Vendorify.vendor_images_path).to eql vendor_images_path
   end
 
   it 'returns “vendor javascripts” path' do
-    expect(Vendorify.vendor_javascripts).to eql vendor_javascripts
+    expect(Vendorify.vendor_javascripts_path).to eql vendor_javascripts_path
   end
 
   it 'returns “vendor stylesheets” path' do
-    expect(Vendorify.vendor_stylesheets).to eql vendor_stylesheets
+    expect(Vendorify.vendor_stylesheets_path).to eql vendor_stylesheets_path
   end
 end
