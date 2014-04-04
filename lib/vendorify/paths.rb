@@ -1,7 +1,7 @@
 module Vendorify
   module Paths
     def vendor_assets
-      File.expand_path 'vendor/assets', trail
+      File.expand_path 'vendor/assets', @trail
     end
 
     def vendor_fonts
