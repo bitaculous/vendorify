@@ -1,7 +1,7 @@
 module Vendorify
-  require 'vendorify/paths'
+  require_relative 'vendorify/paths'
 
   extend Paths
 
-  require 'vendorify/integrations'
+  require_relative 'vendorify/integrations'
 end
