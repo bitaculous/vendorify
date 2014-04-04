@@ -27,9 +27,5 @@ module Vendorify
     protected
 
     attr_reader :trail
-
-    def trail
-      Dir.pwd
-    end
   end
 end

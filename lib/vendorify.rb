@@ -3,5 +3,7 @@ module Vendorify
 
   extend Paths
 
+  @trail = Dir.pwd
+
   require_relative 'vendorify/integrations'
 end
