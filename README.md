@@ -1,7 +1,7 @@
 [VENDORIFY](http://bitaculous.github.io/vendorify "Vendorify")
 ==============================================================
 
-**“Put your vendor assets where they belong.”**
+**Put your vendor assets where they belong.**
 
 Code Status
 -----------

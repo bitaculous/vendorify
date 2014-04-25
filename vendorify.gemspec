@@ -7,7 +7,7 @@ require 'vendorify/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'vendorify'
-  spec.summary       = '“Put your vendor assets where they belong.”'
+  spec.summary       = 'Put your vendor assets where they belong.'
   spec.author        = 'Maik Kempe'
   spec.email         = 'mkempe@bitaculous.com'
   spec.homepage      = 'http://bitaculous.github.io/vendorify'
