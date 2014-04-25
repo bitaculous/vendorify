@@ -28,7 +28,32 @@
         </ul>
       </header>
       <section>
-        <h2>
+        <p>Vendorify expands the <a href="https://github.com/sstephenson/sprockets" title="Sprockets: Rack-based asset packaging">Sprockets</a> and
+<a href="http://sass-lang.com" title="Sass: Syntactically Awesome Style Sheets">Sass</a> path to the “vendor” directory in your project,
+so you can put your vendor assets into it.</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<ol>
+<li>
+<p>Add vendorify to your Gemfile:</p>
+
+<pre><code>group :assets do
+  gem 'vendorify', github: 'bitaculous/vendorify'
+end
+</code></pre>
+</li>
+<li><p>Run <code>bundle install</code></p></li>
+</ol><h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Put your vendor assets into <code>vendor/assets/fonts</code>, <code>vendor/assets/images</code>, <code>vendor/assets/javascripts</code> or
+<code>vendor/assets/stylesheets</code>.</p>
+
+<p>That's all.</p>
+
+<h2>
 <a name="code-status" class="anchor" href="#code-status"><span class="octicon octicon-link"></span></a>Code Status</h2>
 
 <p><a href="http://travis-ci.org/bitaculous/vendorify"><img src="https://travis-ci.org/bitaculous/vendorify.svg" title="Travis CI Status" alt="Travis CI Status"></a>
