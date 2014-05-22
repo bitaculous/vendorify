@@ -7,6 +7,8 @@ Vendorify expands the [Sprockets](https://github.com/sstephenson/sprockets "Spro
 [Sass](http://sass-lang.com "Sass: Syntactically Awesome Style Sheets") path to the “vendor” directory in your project,
 so you can put your vendor assets into it.
 
+[![Travis CI Status](https://travis-ci.org/bitaculous/vendorify.svg)](http://travis-ci.org/bitaculous/vendorify) [![Gemnasium Status](https://gemnasium.com/bitaculous/vendorify.svg)](https://gemnasium.com/bitaculous/vendorify)
+
 Installation
 ------------
 
@@ -27,12 +29,6 @@ Put your vendor assets into `vendor/assets/fonts`, `vendor/assets/images`, `vend
 `vendor/assets/stylesheets`.
 
 That's all.
-
-Code Status
------------
-
-[<img src="https://travis-ci.org/bitaculous/vendorify.svg" title="Travis CI Status" alt="Travis CI Status" />](http://travis-ci.org/bitaculous/vendorify)
-[<img src="https://gemnasium.com/bitaculous/vendorify.svg" title="Gemnasium Status" alt="Gemnasium Status" />](https://gemnasium.com/bitaculous/vendorify)
 
 License
 -------
