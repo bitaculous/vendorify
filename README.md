@@ -1,5 +1,5 @@
-[VENDORIFY](http://bitaculous.github.io/vendorify "Vendorify")
-==============================================================
+[Vendorify](http://bitaculous.github.io/vendorify "Put your vendor assets where they belong.")
+==============================================================================================
 
 **Put your vendor assets where they belong.**
 
@@ -7,7 +7,8 @@ Vendorify expands the [Sprockets](https://github.com/sstephenson/sprockets "Spro
 [Sass](http://sass-lang.com "Sass: Syntactically Awesome Style Sheets") path to the “vendor” directory in your project,
 so you can put your vendor assets into it.
 
-[![Travis CI Status](https://travis-ci.org/bitaculous/vendorify.svg)](http://travis-ci.org/bitaculous/vendorify) [![Gemnasium Status](https://gemnasium.com/bitaculous/vendorify.svg)](https://gemnasium.com/bitaculous/vendorify)
+[![Travis CI Status](https://travis-ci.org/bitaculous/vendorify.svg)](http://travis-ci.org/bitaculous/vendorify)
+[![Gemnasium Status](https://gemnasium.com/bitaculous/vendorify.svg)](https://gemnasium.com/bitaculous/vendorify)
 
 Installation
 ------------
@@ -30,7 +31,23 @@ Put your vendor assets into `vendor/assets/fonts`, `vendor/assets/images`, `vend
 
 That's all.
 
+Bug Reports
+-----------
+
+Github Issues are used for managing bug reports and feature requests. If you run into issues, please search the issues
+and submit new problems [here](https://github.com/bitaculous/vendorify/issues "Github Issues").
+
+Versioning
+----------
+
+This library aims to adhere to [Semantic Versioning 2.0.0][semver]. Violations of this scheme should be reported as bugs.
+Specifically, if a minor or patch version is released that breaks backward compatibility, that version should be
+immediately yanked and / or a new version should be immediately released that restores compatibility.
+
+[semver]: http://semver.org
+
 License
 -------
 
-Vendorify is released under the MIT License.
+[Vendorify](http://bitaculous.github.io/vendorify "Put your vendor assets where they belong.") is released under the
+MIT License (MIT), see [LICENSE](https://raw.githubusercontent.com/bitaculous/vendorify/master/LICENSE "License").
