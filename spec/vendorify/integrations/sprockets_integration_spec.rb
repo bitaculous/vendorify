@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe Vendorify::Integrations::SprocketsIntegration do
   include Helpers
 

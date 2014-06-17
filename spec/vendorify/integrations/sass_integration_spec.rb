@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe Vendorify::Integrations::SassIntegration do
   include Helpers
 
