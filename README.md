@@ -3,7 +3,8 @@
 
 **Put your vendor assets where they belong.**
 
-Vendorify expands the [Sprockets](https://github.com/sstephenson/sprockets "Sprockets: Rack-based asset packaging") and
+[Vendorify](http://bitaculous.github.io/vendorify "Put your vendor assets where they belong.") expands the
+[Sprockets](https://github.com/sstephenson/sprockets "Sprockets: Rack-based asset packaging") and
 [Sass](http://sass-lang.com "Sass: Syntactically Awesome Style Sheets") path to the “vendor” directory in your project,
 so you can put your vendor assets into it.
 
