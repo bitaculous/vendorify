@@ -1,20 +1,18 @@
-[Vendorify](http://bitaculous.github.io/vendorify "Put your vendor assets where they belong.")
-==============================================================================================
+[Vendorify]
+===========
 
 **Put your vendor assets where they belong.**
 
-[Vendorify](http://bitaculous.github.io/vendorify "Put your vendor assets where they belong.") expands the
-[Sprockets](https://github.com/sstephenson/sprockets "Sprockets: Rack-based asset packaging") and
-[Sass](http://sass-lang.com "Sass: Syntactically Awesome Style Sheets") path to the `vendor` directory in your project,
-so you can put your vendor assets into it.
+Vendorify expands the [Sprockets] and [Sass] path to the `vendor/assets` directory in your project, so you can put your
+vendor assets into it.
 
-[![Travis CI Status](https://travis-ci.org/bitaculous/vendorify.svg)](http://travis-ci.org/bitaculous/vendorify)
-[![Gemnasium Status](https://gemnasium.com/bitaculous/vendorify.svg)](https://gemnasium.com/bitaculous/vendorify)
+[![Travis CI Status][Travis CI Status]][Travis CI]
+[![Gemnasium Status][Gemnasium Status]][Gemnasium]
 
 Installation
 ------------
 
-1.  Add vendorify to your Gemfile:
+1.  Add Vendorify to your Gemfile:
 
     ```
     group :assets do
@@ -32,23 +30,29 @@ Put your vendor assets into `vendor/assets/fonts`, `vendor/assets/images`, `vend
 
 That's all.
 
-Bug Reports
+Bug reports
 -----------
 
 Github Issues are used for managing bug reports and feature requests. If you run into issues, please search the issues
-and submit new problems [here](https://github.com/bitaculous/vendorify/issues "Github Issues").
+and submit new problems [here].
 
 Versioning
 ----------
 
-This library aims to adhere to [Semantic Versioning 2.0.0][semver]. Violations of this scheme should be reported as bugs.
+This library aims to adhere to [Semantic Versioning 2.0.0]. Violations of this scheme should be reported as bugs.
 Specifically, if a minor or patch version is released that breaks backward compatibility, that version should be
 immediately yanked and / or a new version should be immediately released that restores compatibility.
-
-[semver]: http://semver.org
 
 License
 -------
 
-[Vendorify](http://bitaculous.github.io/vendorify "Put your vendor assets where they belong.") is released under the
-MIT License (MIT), see [LICENSE](https://raw.githubusercontent.com/bitaculous/vendorify/master/LICENSE "License").
+Vendorify is released under the [MIT License (MIT)], see [LICENSE].
+
+[Gemnasium Status]: http://img.shields.io/gemnasium/bitaculous/vendorify.svg?style=flat "Gemnasium Status"
+[Gemnasium]: https://gemnasium.com/bitaculous/vendorify "Vendorify at Gemnasium"
+[here]: https://github.com/bitaculous/vendorify/issues "Github Issues"
+[Sass]: http://sass-lang.com "Sass: Syntactically Awesome Style Sheets"
+[Sprockets]: https://github.com/sstephenson/sprockets "Rack-based asset packaging system"
+[Travis CI Status]: http://img.shields.io/travis/bitaculous/vendorify.svg?style=flat "Travis CI Status"
+[Travis CI]: https://travis-ci.org/bitaculous/vendorify "Vendorify at Travis CI"
+[Vendorify]: http://bitaculous.github.io/vendorify "Put your vendor assets where they belong."
