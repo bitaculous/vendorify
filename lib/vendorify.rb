@@ -1,9 +1,9 @@
 module Vendorify
-  require_relative 'vendorify/paths'
+  require 'vendorify/paths'
 
   extend Paths
 
   @trail = Dir.pwd
 
-  require_relative 'vendorify/integrations'
+  require 'vendorify/integrations'
 end
