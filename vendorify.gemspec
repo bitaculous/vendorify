@@ -6,18 +6,18 @@ $:.unshift lib unless $:.include? lib
 require 'vendorify/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'vendorify'
-  spec.summary       = 'Put your vendor assets where they belong.'
-  spec.author        = 'Maik Kempe'
-  spec.email         = 'mkempe@bitaculous.com'
-  spec.homepage      = 'http://bitaculous.github.io/vendorify'
-  spec.version       = Vendorify::VERSION
-  spec.platform      = Gem::Platform::RUBY
-  spec.licenses      = 'MIT'
+  spec.name        = 'vendorify'
+  spec.summary     = 'Put your vendor assets where they belong.'
+  spec.author      = 'Maik Kempe'
+  spec.email       = 'mkempe@bitaculous.com'
+  spec.homepage    = 'http://bitaculous.github.io/vendorify'
+  spec.version     = Vendorify::VERSION
+  spec.platform    = Gem::Platform::RUBY
+  spec.license     = 'MIT'
 
-  spec.files         = `git ls-files`.split($\)
-  spec.executables   = spec.files.grep(/^bin/).map { |file| File.basename file }
-  spec.test_files    = spec.files.grep(/^(features|spec|test)/)
+  spec.files       = `git ls-files`.split($\)
+  spec.executables = spec.files.grep(/^bin/).map { |file| File.basename file }
+  spec.test_files  = spec.files.grep(/^(features|spec|test)/)
 
   spec.required_ruby_version = '~> 2.1'
 
