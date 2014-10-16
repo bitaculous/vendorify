@@ -49,7 +49,7 @@ License
 Vendorify is released under the [MIT License (MIT)], see [LICENSE].
 
 [Gemnasium]: https://gemnasium.com/bitaculous/vendorify "Vendorify at Gemnasium"
-[Gemnasium Status]: http://img.shields.io/gemnasium/bitaculous/vendorify.svg?style=flat "Gemnasium Status"
+[Gemnasium Status]: https://img.shields.io/gemnasium/bitaculous/vendorify.svg?style=flat "Gemnasium Status"
 [here]: https://github.com/bitaculous/vendorify/issues "Github Issues"
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/vendorify/master/LICENSE "License"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
@@ -57,5 +57,5 @@ Vendorify is released under the [MIT License (MIT)], see [LICENSE].
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
 [Sprockets]: https://github.com/sstephenson/sprockets "Rack-based asset packaging system"
 [Travis CI]: https://travis-ci.org/bitaculous/vendorify "Vendorify at Travis CI"
-[Travis CI Status]: http://img.shields.io/travis/bitaculous/vendorify.svg?style=flat "Travis CI Status"
-[Vendorify]: http://bitaculous.github.io/vendorify "Put your vendor assets where they belong."
+[Travis CI Status]: https://img.shields.io/travis/bitaculous/vendorify.svg?style=flat "Travis CI Status"
+[Vendorify]: https://bitaculous.github.io/vendorify/ "Put your vendor assets where they belong."
