@@ -5,14 +5,12 @@ $:.unshift lib unless $:.include? lib
 
 require 'vendorify/version'
 
-Gem::Specification.new do |spec|
-  spec.name        = 'vendorify'
+Gem::Specification.new 'vendorify', Vendorify::VERSION do |spec|
   spec.summary     = 'Put your vendor assets where they belong.'
   spec.author      = 'Maik Kempe'
   spec.email       = 'mkempe@bitaculous.com'
   spec.homepage    = 'https://bitaculous.github.io/vendorify/'
   spec.license     = 'MIT'
-  spec.version     = Vendorify::VERSION
 
   spec.files       = `git ls-files`.split($\)
   spec.executables = spec.files.grep(/^bin/).map { |file| File.basename file }
@@ -22,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.required_rubygems_version = '~> 2.4'
 
-  spec.add_dependency 'sprockets', '~> 2.12.1'
+  spec.add_dependency 'sprockets', '~> 2.12.3'
 
   spec.add_dependency 'sass', '>= 3.2'
 
