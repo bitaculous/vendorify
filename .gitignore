@@ -3,4 +3,5 @@
 /.ruby-version
 /Gemfile.lock
 /pkg/
+/tmp/
 /vendorify.sublime-workspace
