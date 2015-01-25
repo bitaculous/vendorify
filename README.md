@@ -1,13 +1,12 @@
 [Vendorify]
 ===========
 
+[![Travis CI Status][Travis CI Status]][Travis CI] [![Gemnasium Status][Gemnasium Status]][Gemnasium]
+
 **Put your vendor assets where they belong.**
 
 Vendorify expands the [Sprockets] and [Sass] path to the `vendor/assets` directory in your project, so you can put your
 vendor assets into it.
-
-[![Travis CI Status][Travis CI Status]][Travis CI]
-[![Gemnasium Status][Gemnasium Status]][Gemnasium]
 
 Installation
 ------------
