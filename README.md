@@ -29,6 +29,23 @@ Put your vendor assets into `vendor/assets/fonts`, `vendor/assets/images`, `vend
 
 That's all.
 
+Development
+-----------
+
+### Specs
+
+Use the `rspec` command to run the specs:
+
+```
+$ rspec
+```
+
+or via [Guard]:
+
+```
+$ guard -g spec
+```
+
 Bug Reports
 -----------
 
@@ -49,6 +66,7 @@ Vendorify is released under the [MIT License (MIT)], see [LICENSE].
 
 [Gemnasium]: https://gemnasium.com/bitaculous/vendorify "Vendorify at Gemnasium"
 [Gemnasium Status]: https://img.shields.io/gemnasium/bitaculous/vendorify.svg?style=flat "Gemnasium Status"
+[Guard]: http://guardgem.org "A command line tool to easily handle events on file system modifications."
 [here]: https://github.com/bitaculous/vendorify/issues "Github Issues"
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/vendorify/master/LICENSE "License"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
